@@ -3,14 +3,15 @@ body {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: grey;
   margin: 0 20px;
+  font-size: 20px;
 }
 nav {
   display: flex;
   background-color: whitesmoke;
   justify-content: start;
-  padding-left: 100px;
+  padding-left: 300px;
 }
 header {
   background-image: url(../imgs/img-main.jpeg);
@@ -25,4 +26,27 @@ header {
 header h4 {
   color: white;
   font-size: 50px;
+}
+.bold {
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+}
+main h2 {
+  padding-left: 300px;
+}
+.card {
+  border: solid 1px;
+  display: flexbox;
+  max-height: fit-content;
+  max-width: fit-content;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2%;
+  border-color: grey;
+}
+.card img {
+  height: 300px;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
 }
