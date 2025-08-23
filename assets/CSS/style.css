@@ -44,9 +44,18 @@ main h2 {
   justify-content: center;
   border-radius: 2%;
   border-color: grey;
+
+  justify-self: center;
 }
-.card img {
+.card p {
+  padding: 10px;
+}
+.background {
   height: 300px;
   border-top-left-radius: 2%;
   border-top-right-radius: 2%;
+}
+.icon {
+  max-height: 18px;
+  margin: 0 5px;
 }
