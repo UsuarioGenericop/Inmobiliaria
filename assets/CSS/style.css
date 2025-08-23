@@ -12,7 +12,9 @@ nav {
   background-color: whitesmoke;
   justify-content: start;
   padding-left: 300px;
+  align-items: center;
 }
+
 header {
   background-image: url(../imgs/img-main.jpeg);
   background-size: cover;
@@ -39,23 +41,38 @@ main h2 {
   border: solid 1px;
   display: flexbox;
   max-height: fit-content;
-  max-width: fit-content;
+  max-width: 409px;
   align-items: center;
   justify-content: center;
   border-radius: 2%;
   border-color: grey;
-
+  font-size: medium;
   justify-self: center;
 }
 .card p {
   padding: 10px;
+  display: flex;
+  margin: 0;
+  text-wrap: wrap;
 }
 .background {
-  height: 300px;
+  height: 230px;
   border-top-left-radius: 2%;
   border-top-right-radius: 2%;
 }
 .icon {
   max-height: 18px;
   margin: 0 5px;
+}
+.main {
+  padding: 0px 300px;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  color: white;
+  background-color: black;
+  margin-left: 300px;
+  margin-top: 20px;
+  border-radius: 2%;
 }
