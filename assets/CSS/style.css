@@ -72,7 +72,19 @@ main h2 {
 button {
   color: white;
   background-color: black;
-  margin-left: 300px;
-  margin-top: 20px;
+  margin: 20px 300px;
   border-radius: 2%;
+}
+.right {
+  filter: invert(55%) sepia(95%) saturate(5000%) hue-rotate(90deg);
+}
+.wrong {
+  filter: brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(7500%)
+    hue-rotate(0deg);
+}
+.variableSmoke {
+  padding: 10px;
+}
+.variablePets {
+  padding: 10px;
 }
