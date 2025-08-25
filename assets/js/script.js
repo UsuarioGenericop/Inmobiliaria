@@ -61,3 +61,9 @@ for (let apartment of apartments) {
   // Move to next apartment in the array
   i++;
 }
+document.getElementById("rentButton").onclick = function () {
+  location.href = "./enAlquiler.html"; // Redirects to "propiedades en alquiler"
+};
+document.getElementById("saleButton").onclick = function () {
+  location.href = "./enVenta.html"; // Redirects to "propiedades en venta"
+};
